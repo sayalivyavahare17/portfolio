@@ -1,0 +1,67 @@
+/* General reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header and Footer */
+  header {
+    background-color: #6200ea;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #6200ea;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Navigation Links */
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #3700b3;
+  }
+  
+  nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    background-color: #303f9f;
+  }
+  
+  /* Page content */
+  .main-content {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #6200ea;
+  }
+
+  /* Profile Image Styling */
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
